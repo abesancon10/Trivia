@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="./assets/css/Reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Trivia Game</title>
   </head>
 
   <body>
-    <h1>Trivia Game</h1>
-    <div class="time">
-      Time Remaining:
+    <div class="container">
+      <h1>Trivia Game</h1>
+      <p id="timeRemaining">
+        Time Remaining:
+        <span id="timer"></span>
+      </p>
+      <p id="question"></p>
+      <div id="results"></div>
     </div>
-
-    <div class="question">?</div>
-    <div class="answers">a</div>
-
-    <div class="question">1</div>
-    <div class="answers">b</div>
-
-    <div class="question">2</div>
-    <div class="answers">c</div>
-
-    <div class="question">3</div>
-    <div class="answers">d</div>
-
   </body>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+  ></script>
   <script src="./assets/js/game.js"></script>
 </html>
