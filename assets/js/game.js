@@ -18,4 +18,27 @@ var question2 = {
       "Green Anaconda"
     ],
    answer: "Reticulated Python",
-}
+};
+console.log(question2)
+var question3 = {
+  question: "?",
+  options: [
+      "",
+      "Ball Python",
+      "Reticulated Python",
+      "Green Anaconda"
+    ],
+   answer: "",
+};
+console.log(question3)
+var question4 = {
+  question: "?",
+  options: [
+      "Western Hognose",
+      "Ball Python",
+      "Reticulated Python",
+      "Green Anaconda"
+    ],
+   answer: "",
+};
+console.log(question4)
